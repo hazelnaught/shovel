@@ -1,0 +1,52 @@
+body {
+  background-color: C4B07B;
+  height: 100vh;
+  margin: 0px;
+  cursor: url(image/shovel.png), auto;
+}
+
+#blue {
+  position: absolute;
+  top:0px;
+  left: calc(50vw - 400px);
+  z-index: 6;
+}
+
+#blue:hover {
+
+}
+
+#red {
+  position: absolute;
+  top:50px;
+  left: calc(50vw - 400px);
+  z-index: 5;
+}
+
+#green {
+  position: absolute;
+  top:100px;
+  left: calc(50vw - 400px);
+  z-index: 4;
+}
+
+#black {
+  position: absolute;
+  top:150px;
+  left: calc(50vw - 390px);
+  z-index: 3;
+}
+
+#purple {
+  position: absolute;
+  top:200px;
+  left: calc(50vw - 410px);
+  z-index: 2;
+}
+
+#orange {
+  position: absolute;
+  top:250px;
+  left: calc(50vw - 380px);
+  z-index: 1;
+}
